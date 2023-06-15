@@ -1,1 +1,1 @@
-Tjis repo contains various directries with various concepts of C programming
+This repo contains various directories with various concepts of C programming
