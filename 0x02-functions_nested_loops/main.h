@@ -3,4 +3,7 @@
 
 void _putchar(char c);
 
+/* prints alphabet in lowercase */
+void print_alphabet(void);
+
 #endif /* MAIN_H */
