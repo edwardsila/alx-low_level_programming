@@ -13,7 +13,11 @@ int _islower(int c);
 int _isalpha(int c);
 /* prints sign of a number */
 int print_sign(int n);
+/* gets absolute value */
 int _abs(int);
+/* prints last digit */
 int print_last_digit(int);
+/* prints every minute of the day of jack bauer */
+void jack_bauer(void);
 
 #endif /* MAIN_H */
