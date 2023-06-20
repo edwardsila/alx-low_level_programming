@@ -9,5 +9,7 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 /* checks for lowercase characters */
 int _islower(int c);
+/* check for alphabetic characters */
+int _isalpha(int c);
 
 #endif /* MAIN_H */
