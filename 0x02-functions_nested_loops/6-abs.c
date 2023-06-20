@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * _abs - computes absolute value of an integer
- * @int: hold the integer we want to compute
+ * @n: hold the integer we want to compute
  * Return: integers
  */
 
-int _abs(int)
+int _abs(int n)
 {
 
-	if (int < 0)
-		return (-int);
+	if (n < 0)
+		return (-n);
 	else
-		return (int);
+		return (n);
 }
