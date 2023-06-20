@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks weather c is lowercase
- * @c - gets the characters to be checked
+ * @c: gets the characters to be checked
  * Return: 1 if is lowercase and 0 otherwise
  */
 
