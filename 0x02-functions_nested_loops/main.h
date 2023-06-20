@@ -14,5 +14,6 @@ int _isalpha(int c);
 /* prints sign of a number */
 int print_sign(int n);
 int _abs(int);
+int print_last_digit(int);
 
 #endif /* MAIN_H */
