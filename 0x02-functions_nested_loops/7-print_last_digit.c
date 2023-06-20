@@ -2,6 +2,7 @@
 /**
  * print_last_digit - prints the last digit
  * @n: hold the integer to be computed
+ * @ld: lastdigit vriab;e
  * Return: n
  */
 
