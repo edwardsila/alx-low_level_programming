@@ -2,7 +2,7 @@
 /**
  * _strcpy - copy strings pointed to
  * @dest: end pointer
- * *src: begin pointer
+ * @src: begin pointer
  *
  * Return: pointer to dest
  */
