@@ -1,0 +1,41 @@
+#include "main.h"
+/**
+ * _atoic - converts a string nto an integer
+ * @s: string to convert
+ * Return: int containing the converted number
+ */
+
+int _atoic(char *s)
+{
+	int index, sign;
+	unsigned int res;
+	char now;
+
+	sign = 1;
+	index = 0;
+	res = 0;
+
+	while (*(s + index) != '\0')
+	{
+		now = *(s + index);
+		if (now == '-')
+		{
+			sign *= -1;
+		}
+		if (now >= '0' && now <= '9')
+		{
+			while (*(s + index) > 47 && *(s + index) < 58)
+			{
+				res = (res * 10) + *(s + index) -'0';
+				index++;
+			}
+			break;
+		}
+		index++;
+	}
+	if (sign < 0)
+	{
+		res *= sign;
+	}
+	return (res);
+}
