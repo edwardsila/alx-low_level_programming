@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _atoic - converts a string nto an integer
+ * _atoi - converts a string nto an integer
  * @s: string to convert
  * Return: int containing the converted number
  */
 
-int _atoic(char *s)
+int _atoi(char *s)
 {
 	int index, sign;
 	unsigned int res;
