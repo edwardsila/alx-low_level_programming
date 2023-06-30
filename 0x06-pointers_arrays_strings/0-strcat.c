@@ -3,21 +3,27 @@
  * _strcat - concatenates two strings
  * @dest: pointer to string 1
  * @src: pointer to string 2
- * Return: 0
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
+	int i, j;
+
 	/* this loop find the end of line terminator */
-	while (*dest)
+	i = 0;
+
+	while (dest[i] != '\0')
 		dest++;
 	/* This loop apend contents of src to dest */
-	while (*src)
+	j = 0;
+
+	while (src[j] != '\0')
 	{
-		*dest = *src;
+		dest[i] = src[j];
 		dest++;
 		src++;
 	}
-	*dest = '\0';
-	return (0);
+	dest[i] = '\0';
+	return (dest);
 }
