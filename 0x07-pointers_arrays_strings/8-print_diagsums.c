@@ -13,6 +13,7 @@ void print_diagsums(int *a, int size)
 	int row, primary, secondary, i;
 	primary = 0;
 	secondary = 0;
+
 	for (row = 0; row < size; row++)
 	{
 		i = (row * size) + row;
