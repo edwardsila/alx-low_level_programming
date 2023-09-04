@@ -1,6 +1,9 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
