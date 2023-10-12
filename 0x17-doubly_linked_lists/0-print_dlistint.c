@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_dlisint - prints data in the list
+ * print_dlistint - prints data in the list
  * @h: pointer to struct
  * Return: int
  **/
