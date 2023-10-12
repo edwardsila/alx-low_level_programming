@@ -9,15 +9,13 @@
 
 size_t print_dlisint(const dlistint_t *h)
 {
-	const dlistint_t *current = h;
-	int count = 0;
+	size_t count = 0;
 
-	while (current != NULL)
+	while (h)
 	{
-		printf("%d\n", current->n);
-		current = current->next;
-		count++;
+		printf("%d\n", h->n);
+		h = h->next;
+		count += 1;
 	}
-	printf("-> %d elements\n", count);
 	return (count);
 }
